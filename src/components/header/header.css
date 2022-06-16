@@ -1,0 +1,25 @@
+header{
+    overflow: hidden;
+}
+
+.socialLinks svg{
+    fill: rgb(76, 50, 206);
+    transition: all 400ms ease;
+}
+.socialLinks svg:hover{
+    fill: #000;
+}
+
+/* .socials{
+    display: flex;
+    flex-direction: row;
+
+} */
+
+.socials::before, .socials::after
+{
+    content: "";
+    height: 2.5px;
+    width: 25rem;
+    background: #804b4b;
+}
